@@ -1,104 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'roboto', sans-serif;
-}
+/* product.css */
 
-.navbar{
-/* position: sticky; */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #060606;
-    z-index: 9;
-}
-
-.nav{
-    padding: 10px 10vw;
-    display: flex;
-    justify-content: space-between;
-}
-
-.brand-logo{
-    height: 60px;
-}
-
-.nav-items{
-    display: flex;
-    align-items: center;
-}
-
-.search{
-    width: 500px;
-    display: flex;
-}
-
-.search-box{
+/* Algemene opmaak voor het productgedeelte */
+.product {
     width: 80%;
-    height: 40px;
-    padding: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border: 1px solid #d1d1d1;
-    text-transform: capitalize;
-    background: none;
-    color: #a9a9a9;
-    outline: none;
-}
-
-.search-btn{
-    width: 20%;
-    height: 40px;
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background: #d13737;
-    color: #fff;
-    text-transform: capitalize;
-    font-size: 15px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.search-box::placeholder{
-    color: #a9a9a9;
-}
-
-.nav-items a{
-    margin-left: 20px;
-}
-
-.nav-items a img{
-    width: 30px;
-}
-
-.links-container {
-    position: absolute;
-    top: 20px;
-    left: 200px;
-    width: 100%;
+    margin: 0 auto;
     display: flex;
-    padding: 10px 10vw;
-    list-style: none;
-    border-top: none;
+    justify-content: space-between; /* Ruimte tussen de afbeelding en de details */
+    align-items: flex-start; /* Uitlijnen aan de bovenkant */
+    margin-top: 300px; /* Ruimte boven het product */
+    margin-bottom: 50px; /* Ruimte onder het product */
 }
 
-.link {
-    text-transform: capitalize;
-    padding: 10px 20px; /* Meer padding voor een groter knopeffect */
-    margin: 0 5px;
-    text-decoration: none;
-    color: #fff; /* Tekstkleur wit */
-    background-color: #cf2121; /* Achtergrondkleur van de knop */
-    border-radius: 5px; /* Afronding van de randen */
-    transition: background-color 0.3s, opacity 0.5s; /* Overgang voor achtergrondkleur en opaciteit */
+body {
+    background-image: url('../img/white.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Hierdoor blijft de achtergrondafbeelding vast op zijn plaats, zelfs bij het scrollen */
 }
 
-.link:hover {
-    opacity: 0.8; /* Verminder de opaciteit bij hover */
-    background-color: #a61111; /* Achtergrondkleur bij hover */
+/* Opmaak voor de afbeeldingen van het product */
+.product-images img {
+    width: 100%; /* Afbeelding neemt 100% van de breedte van de container in */
+    height: auto; /* Behoudt de aspectverhouding van de afbeelding */
+    margin-bottom: 10px; /* Ruimte onder de afbeelding */
 }
 
+/* Opmaak voor de details van het product */
+.product-details {
+    flex-grow: 1; /* Laat de details de resterende ruimte innemen */
+    margin-left: 30px; /* Ruimte tussen de afbeelding en de details */
+}
+
+/* Opmaak voor de naam van het product */
+.product-name {
+    font-size: 28px; /* Verhoog de lettergrootte */
+    margin-bottom: 15px; /* Ruimte onder de naam */
+}
+
+/* Opmaak voor de prijs van het product */
+.product-price {
+    font-size: 20px; /* Lettergrootte van de prijs */
+    margin-bottom: 20px; /* Ruimte onder de prijs */
+}
+
+/* Opmaak voor de knop Toevoegen aan winkelwagen */
+.add-to-cart {
+    font-size: 18px; /* Lettergrootte van de knop */
+    padding: 12px 24px; /* Binnenruimte van de knop */
+    background-color: #007bff; /* Achtergrondkleur van de knop */
+    color: #fff; /* Tekstkleur van de knop */
+    border: none; /* Geen rand om de knop */
+    border-radius: 5px; /* Afgeronde hoeken van de knop */
+    cursor: pointer; /* Cursorstijl bij aanwijzen */
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3; /* Achtergrondkleur van de knop bij hover */
+}
+
+/* Opmaak voor de uitgebreide beschrijving van het product */
+.product-description-extended {
+    margin-top: 40px; /* Ruimte boven de uitgebreide beschrijving */
+    margin-bottom: 20px; /* Ruimte onder de uitgebreide beschrijving */
+}
+
+/* Opmaak voor de specificaties van het product */
+.product-specs {
+    margin-top: 40px; /* Ruimte boven de specificaties */
+    margin-bottom: 20px; /* Ruimte onder de specificaties */
+    border-top: 1px solid #ccc; /* Lijn boven de specificaties */
+    padding-top: 20px; /* Ruimte boven de specificaties */
+}
+
+/* Opmaak voor de lijst met specificaties */
+.product-specs ul {
+    list-style-type: none; /* Geen opsommingsteken */
+    padding: 0; /* Geen vulling binnen de lijst */
+}
+
+.product-specs ul li {
+    margin-bottom: 5px; /* Ruimte onder elke specificatie */
+}
