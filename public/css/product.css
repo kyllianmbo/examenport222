@@ -20,14 +20,14 @@ body {
 
 /* Opmaak voor de afbeeldingen van het product */
 .product-images img {
-    width: 100%; /* Afbeelding neemt 100% van de breedte van de container in */
+    width: 100%;
     height: auto; /* Behoudt de aspectverhouding van de afbeelding */
     margin-bottom: 10px; /* Ruimte onder de afbeelding */
 }
 
 /* Opmaak voor de details van het product */
 .product-details {
-    flex-grow: 1; /* Laat de details de resterende ruimte innemen */
+    flex-grow: 1; 
     margin-left: 30px; /* Ruimte tussen de afbeelding en de details */
 }
 

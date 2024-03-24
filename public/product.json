@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Audi Rs7",
+      "description": "Krachtige en luxe sportback",
+      "price": "€140.000",
+      "image": "img/audi rs7.jpg",
+      "extended_description": "De Audi RS7 is een icoon van sportieve luxe, met zijn krachtige prestaties en verfijnde interieur. Met een indrukwekkende V8-motor onder de motorkap levert de RS7 adembenemende acceleratie en dynamiek. Het interieur is elegant en luxueus, met hoogwaardige materialen en geavanceerde technologieën. ",
+      "specs": {
+        "Motor": "4.0-liter twin-turbo V8",
+        "Vermogen": "600 pk",
+        "Koppel": "800 Nm",
+        "Acceleratie (0-100 km/u)": "3.6 seconden",
+        "Topsnelheid": "250 km/u (begrensd, optioneel 305 km/u met Dynamic Package Plus)",
+        "Transmissie": "8-traps automaat",
+        "Brandstofverbruik": "11.6"
+      }
+    }
+    
+  ]
+  
