@@ -33,7 +33,7 @@
 .hero-section2{
     width: 100%;
     height: calc(120vh - 140px);
-    background-image: url('../img/rangeblack.jpg');
+    background-image: url('../img/range2.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -58,7 +58,7 @@
 .hero-section3{
     width: 100%;
     height: calc(120vh - 140px);
-    background-image: url('../img/cyber.jpg');
+    background-image: url('../img/teslacyber.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -89,7 +89,7 @@
 .hero-section4{
     width: 100%;
     height: calc(120vh - 140px);
-    background-image: url('../img/hybrid123.jpg');
+    background-image: url('../img/hybrid2.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
