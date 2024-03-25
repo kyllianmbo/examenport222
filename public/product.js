@@ -1,9 +1,14 @@
-jQuery(document).ready(function($) {
-   $.getJSON("product.json", function(products) {
-      var productContainer = $("#product-container");
+$(document).ready(function() {
+   // Haal de productnaam op uit de URL-parameter
+   var urlParams = new URLSearchParams(window.location.search);
+   var productName = urlParams.get('product');
 
-      // Loop door elk product en voeg de HTML-inhoud toe aan de container
-      $.each(products, function(index, product) {
+   // Laad de juiste productgegevens op basis van de productnaam
+   $.getJSON("product.json", function(products) {
+      var product = products.find(p => p.name === productName);
+
+      if (product) {
+         // Bouw de HTML voor het product
          var productHTML = `
             <div class="product">
                <div class="product-images">
@@ -15,7 +20,7 @@ jQuery(document).ready(function($) {
                   <div class="product-price">
                      <span class="price">${product.price}</span>
                   </div>
-                  <button class="add-to-cart">Toevoegen aan winkelwagen</button>
+                  <button class="add-to-cart">Contact opnemen met verkoper</button>
                   <div class="product-description-extended">
                      <h3>Uitgebreide Beschrijving:</h3>
                      <p>${product.extended_description}</p>
@@ -30,8 +35,12 @@ jQuery(document).ready(function($) {
                </div>
             </div>
          `;
+
          // Voeg het productHTML toe aan de productContainer
-         productContainer.append(productHTML);
-      });
+         $("#product-container").append(productHTML);
+      } else {
+         // Toon een foutmelding als het product niet gevonden is
+         $("#product-container").html("<p>Product niet gevonden</p>");
+      }
    });
 });
