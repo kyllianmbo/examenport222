@@ -47,6 +47,59 @@
       "Brandstofverbruik": "11.7 l/100km"
     }
   },
+
+  {
+    "name": "Ferrari F40",
+    "description": "Legendarische supersportwagen",
+    "price": "€800.000",
+    "image": "img/ferrari1.jpg",
+    "extended_description": "De Ferrari F40 is een legendarische supersportwagen die bekend staat om zijn compromisloze prestaties en iconische ontwerp. Met zijn krachtige V8-motor en lichtgewicht constructie biedt de F40 een onvergetelijke rijervaring. Het interieur is minimalistisch en gericht op pure prestaties.",
+    "specs": {
+      "Motor": "2.9-liter twin-turbo V8",
+      "Vermogen": "478 pk",
+      "Koppel": "577 Nm",
+      "Acceleratie (0-100 km/u)": "3.8 seconden",
+      "Topsnelheid": "324 km/u",
+      "Transmissie": "5-traps handgeschakeld",
+      "Brandstofverbruik": "Niet gespecificeerd"
+  }
+},
+
+{
+  "name": "Lamborghini Urus",
+  "description": "Luxe SUV met supercar-prestaties",
+  "price": "€250.000",
+  "image": "img/lambo1.jpg",
+  "extended_description": "De Lamborghini Urus is een luxe SUV met supercar-prestaties en een opvallend ontwerp. Met zijn krachtige V8-motor en geavanceerde vierwielaandrijving biedt de Urus een unieke combinatie van comfort en prestaties. Het interieur is luxueus en voorzien van hoogwaardige materialen.",
+  "specs": {
+    "Motor": "4.0-liter twin-turbo V8",
+    "Vermogen": "641 pk",
+    "Koppel": "850 Nm",
+    "Acceleratie (0-100 km/u)": "3.6 seconden",
+    "Topsnelheid": "305 km/u",
+    "Transmissie": "8-traps automaat",
+    "Brandstofverbruik": "Niet gespecificeerd"
+}
+
+},
+
+{
+  "name": "Nissan Skyline R34 GTR",
+  "description": "Iconische sportauto uit Japan",
+  "price": "€120.000",
+  "image": "img/nissan22.jpg",
+  "extended_description": "De Nissan Skyline R34 GTR is een iconische sportauto uit Japan, geliefd om zijn prestaties en legendarische status. Met zijn krachtige motor en geavanceerde vierwielaandrijving biedt de R34 GTR opwindende prestaties en uitstekende handling. Het interieur is sportief en functioneel, gericht op de rijervaring.",
+  "specs": {
+    "Motor": "2.6-liter twin-turbo inline-6",
+    "Vermogen": "276 pk",
+    "Koppel": "392 Nm",
+    "Acceleratie (0-100 km/u)": "4.9 seconden",
+    "Topsnelheid": "250 km/u"
+}
+},
+
+
+
   {
     "name": "Tesla Model S",
     "description": "Elektrische luxe sedan",
@@ -94,6 +147,57 @@
     "Vermogen": "170 pk",
     "Koppel": "250 Nm",
     "Actieradius": "260 km (WLTP)"
+}
+
+},
+
+{
+  "name": "Tesla Model X",
+  "description": "Elektrische SUV met ruimte voor het hele gezin",
+  "price": "€80.000",
+  "image": "img/teslax.jpg",
+  "extended_description": "De Tesla Model X is een elektrische SUV met ruimte voor het hele gezin. Met zijn indrukwekkende elektrische aandrijving en geavanceerde technologie biedt de Model X een comfortabele en luxueuze rijervaring. Het interieur is stijlvol en functioneel, met opvallende kenmerken zoals de iconische Falcon Wing-deuren.",
+  "specs": {
+    "Motor": "Elektrische aandrijving",
+    "Vermogen": "610 pk",
+    "Koppel": "931 Nm",
+    "Acceleratie (0-100 km/u)": "3.8 seconden",
+    "Topsnelheid": "250 km/u",
+    "Actieradius": "500 km"
+}
+
+},
+
+{
+  "name": "Tesla Cybertruck",
+  "description": "Futuristische elektrische pick-uptruck",
+  "price": "€150.000",
+  "image": "img/tesla2.jpg",
+  "extended_description": "De Tesla Cybertruck is een futuristische elektrische pick-uptruck met een opvallend ontwerp en indrukwekkende prestaties. Met zijn robuuste constructie en krachtige elektrische aandrijving biedt de Cybertruck een unieke rijervaring, zowel op de weg als off-road. Het interieur is minimalistisch en functioneel, met geavanceerde technologische functies.",
+  "specs": {
+    "Motor": "Elektrische aandrijving",
+    "Vermogen": "TBD",
+    "Koppel": "TBD",
+    "Acceleratie (0-100 km/u)": "TBD",
+    "Topsnelheid": "TBD",
+    "Actieradius": "TBD"
+}
+
+},
+
+{
+  "name": "Tesla Model 3",
+  "description": "Elektrische sedan voor dagelijks gebruik",
+  "price": "€50.000",
+  "image": "img/teslamodel3.jpg",
+  "extended_description": "De Tesla Model 3 is een elektrische sedan die ideaal is voor dagelijks gebruik. Met zijn gestroomlijnde ontwerp en geavanceerde elektrische aandrijving biedt de Model 3 een comfortabele en milieuvriendelijke rijervaring. Het interieur is ruim en voorzien van moderne technologieën.",
+  "specs": {
+    "Motor": "Elektrische aandrijving",
+    "Vermogen": "450 pk",
+    "Koppel": "640 Nm",
+    "Acceleratie (0-100 km/u)": "3.1 seconden",
+    "Topsnelheid": "250 km/u",
+    "Actieradius": "500 km"
 }
 
 },
