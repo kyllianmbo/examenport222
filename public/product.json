@@ -8,7 +8,7 @@
     "specs": {
       "Motor": "4.0-liter twin-turbo V8",
       "Vermogen": "600 pk",
-      "Koppel": "800 Nm",
+      "Koppel": "800 Nm", 
       "Acceleratie (0-100 km/u)": "3.6 seconden",
       "Topsnelheid": "250 km/u (begrensd, optioneel 305 km/u met Dynamic Package Plus)",
       "Transmissie": "8-traps automaat",
@@ -30,5 +30,119 @@
       "Actieradius": "600 km",
       "Oplaadtijd (Supercharger)": "15 minuten (voor 320 km bereik)"
     }
+  },
+  {
+    "name": "Nissan GTR 2017",
+    "description": "Sportieve coupé met krachtige prestaties",
+    "price": "€110.000",
+    "image": "img/nissan1.jpg",
+    "extended_description": "De Nissan GTR 2017 is een sportieve coupé met een krachtige motor en indrukwekkende prestaties. Met zijn gestroomlijnde ontwerp en geavanceerde technologieën biedt de GTR een opwindende rijervaring. Het interieur is voorzien van luxe materialen en moderne voorzieningen.",
+    "specs": {
+      "Motor": "3.8-liter twin-turbo V6",
+      "Vermogen": "565 pk",
+      "Koppel": "637 Nm",
+      "Acceleratie (0-100 km/u)": "2.8 seconden",
+      "Topsnelheid": "315 km/u",
+      "Transmissie": "6-traps automaat",
+      "Brandstofverbruik": "11.7 l/100km"
+    }
+  },
+  {
+    "name": "Tesla Model S",
+    "description": "Elektrische luxe sedan",
+    "price": "€90.000",
+    "image": "img/tesla1.jpg",
+    "extended_description": "De Tesla Model S is een elektrische luxe sedan met baanbrekende prestaties en technologie. Met zijn gestroomlijnde ontwerp en krachtige elektrische aandrijving biedt de Model S een ongeëvenaarde rijervaring. Het interieur is ruim, comfortabel en voorzien van geavanceerde functies, waaronder het beroemde Tesla-infotainmentsysteem.",
+    "specs": {
+      "Motor": "Elektrische aandrijving",
+      "Vermogen": "670 pk",
+      "Koppel": "980 Nm",
+      "Acceleratie (0-100 km/u)": "2.4 seconden",
+      "Topsnelheid": "250 km/u",
+      "Actieradius": "600 km"
+    }
+  },
+
+  {
+    "name": "Porsche Taycan",
+    "description": "Elektrische sportwagen",
+    "price": "€110.000",
+    "image": "img/porsche1.jpg",
+    "extended_description": "De Porsche Taycan is een elektrische sportwagen met uitstekende prestaties en een elegant ontwerp. Met zijn geavanceerde elektrische aandrijving en sportieve handling biedt de Taycan een opwindende rijervaring. Het interieur is luxueus en voorzien van hoogwaardige materialen.",
+    "specs": {
+      "Motor": "Elektrische aandrijving",
+      "Vermogen": "616 pk",
+      "Koppel": "850 Nm",
+      "Acceleratie (0-100 km/u)": "3.2 seconden",
+      "Topsnelheid": "260 km/u",
+      "Actieradius": "420 km",
+      "Oplaadtijd (DC snelladen)": "22.5 minuten (van 5% naar 80%)"
+    
   }
+},
+
+  
+{
+  
+  "name": "BMW i3",
+  "description": "Elektrische stadsauto",
+  "price": "€30.000",
+  "image": "img/bmw1.jpg",
+  "extended_description": "De BMW i3 is een compacte elektrische stadsauto met een uniek ontwerp en geavanceerde technologieën. Met zijn elektrische aandrijving en wendbare handling is de i3 ideaal voor gebruik in drukke stadsomgevingen. Het interieur is modern en comfortabel, met innovatieve functies.",
+  "specs": {
+    "Motor": "Elektrische aandrijving",
+    "Vermogen": "170 pk",
+    "Koppel": "250 Nm",
+    "Actieradius": "260 km (WLTP)"
+}
+
+},
+
+{
+  "name": "Toyota Prius",
+  "description": "Hybride hatchback",
+  "price": "€15.000",
+  "image": "img/toyota1.jpg",
+  "extended_description": "De Toyota Prius is een populaire hybride hatchback met een zuinige aandrijving en praktisch design. Met zijn combinatie van een benzinemotor en elektrische motor biedt de Prius een uitstekende brandstofefficiëntie en lage emissies. Het interieur is ruim en comfortabel, ideaal voor dagelijks gebruik.",
+  "specs": {
+    "Motor": "1.8-liter benzinemotor + elektromotor",
+    "Vermogen (samen)": "121 pk",
+    "Brandstofverbruik": "4.2 l/100km",
+    "CO2-uitstoot": "97 g/km",
+    "Topsnelheid": "180 km/u",
+    "Acceleratie (0-100 km/u)": "10.6 seconden"
+}
+
+},
+
+{
+  "name": "Lexus UX 250h",
+  "description": "Hybride compacte SUV",
+  "price": "€30.000",
+  "image": "img/lexus1.jpg",
+  "extended_description": "De Lexus UX 250h is een hybride compacte SUV met een elegant design en geavanceerde technologieën. Met zijn efficiënte hybride aandrijving biedt de UX 250h een soepele rijervaring en uitstekende brandstofefficiëntie. Het interieur is luxe en comfortabel, met hoogwaardige materialen en moderne voorzieningen.",
+  "specs": {
+    "Motor": "2.0-liter benzinemotor + elektromotor",
+    "Vermogen (samen)": "181 pk",
+    "Brandstofverbruik": "5.0 l/100km",
+    "CO2-uitstoot": "116 g/km",
+    "Topsnelheid": "177 km/u",
+    "Acceleratie (0-100 km/u)": "8.5 seconden"
+  }
+},
+{
+  "name": "Honda Accord Hybrid",
+  "description": "Hybride sedan met luxe kenmerken",
+  "price": "€35.000",
+  "image": "img/honda1.jpg",
+  "extended_description": "De Honda Accord Hybrid is een elegante hybride sedan die luxe en efficiëntie combineert. Met zijn geavanceerde hybride aandrijving biedt de Accord een soepele rijervaring en uitstekende brandstofefficiëntie. Het interieur is ruim, comfortabel en voorzien van hoogwaardige materialen en moderne technologieën.",
+  "specs": {
+    "Motor": "2.0-liter benzinemotor + elektromotor",
+    "Vermogen (samen)": "212 pk",
+    "Brandstofverbruik": "5.0 l/100km",
+    "CO2-uitstoot": "114 g/km",
+    "Topsnelheid": "200 km/u",
+    "Acceleratie (0-100 km/u)": "7.1 seconden"
+  }
+}
 ]
