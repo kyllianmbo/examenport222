@@ -3,13 +3,11 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Productpagina - AutoWarella</title>
+   <title>AutoWarella - De beste autowebshop van Nederland!</title>
    <link rel="stylesheet" href="css/home.css">
    <link rel="stylesheet" href="css/footer.css">
-   <link rel="stylesheet" href="css/product.css"> <!-- Link naar product.css -->
 </head>
 <body>
-
    <nav class="navbar">
       <div class="nav">
          <img src="img/logo2.jpg" class="brand-logo" alt="">
@@ -30,14 +28,43 @@
       </ul>
    </nav>
 
-   <div id="product-container" class="product-container">
-      
-      <!-- Producten zullen hier worden ingeladen -->
-   </div>
+   <header class="hero-section5">
+      <div class="content">
+        
+         <!-- <p class="sub-heading">Alle elektrische auto's!</p> -->
+      </div>
+   </header>
+   <div class="banner-area">
+      <div class="center">
+         <h1>Stel een vraag aan onze verkoper</h1>
+         <form method="post">
+            <div class="txt_field">
+               <input type="text" required>
+               <span></span>
+               <label>Naam</label>
+            </div>
 
-   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-   <script src="product.js"></script>
-   <script src="product.json"></script>
-   
+            <div class="txt_field">
+               <input type="email" required>
+               <span></span>
+               <label>E-mailadres</label>
+            </div>
+
+            <div class="txt_field">
+               <input type="text" required>
+               <span></span>
+               <label>Onderwerp</label>
+            </div>
+
+            <div class="txt_field">
+               <textarea required></textarea>
+               <span></span>
+               <label>Uw vraag</label>
+            </div>
+
+            <input type="submit" value="Verzenden">
+         </form>
+      </div>
+   </div>
 </body>
 </html>
