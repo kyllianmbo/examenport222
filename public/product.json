@@ -2,7 +2,7 @@
   {
     "name": "Audi Rs7",
     "description": "Krachtige en luxe sportback",
-    "price": "€140.000",
+    "price": "€45.000",
     "image": "img/audi rs7.jpg",
     "extended_description": "De Audi RS7 is een icoon van sportieve luxe, met zijn krachtige prestaties en verfijnde interieur. Met een indrukwekkende V8-motor onder de motorkap levert de RS7 adembenemende acceleratie en dynamiek. Het interieur is elegant en luxueus, met hoogwaardige materialen en geavanceerde technologieën. ",
     "specs": {
@@ -18,7 +18,7 @@
   {
     "name": "Mercedes G Wagon",
     "description": "Elektrische luxe sedan",
-    "price": "€95.000",
+    "price": "€90.000",
     "image": "img/mercedes1.jpg",
     "extended_description": "De Tesla Model S is een elektrische luxe sedan met baanbrekende prestaties en technologie. Met zijn gestroomlijnde ontwerp en krachtige elektrische aandrijving biedt de Model S een ongeëvenaarde rijervaring. Het interieur is ruim, comfortabel en voorzien van geavanceerde functies, waaronder het beroemde Tesla-infotainmentsysteem.",
     "specs": {
@@ -188,7 +188,7 @@
 {
   "name": "Tesla Model 3",
   "description": "Elektrische sedan voor dagelijks gebruik",
-  "price": "€50.000",
+  "price": "€70.000",
   "image": "img/teslamodel3.jpg",
   "extended_description": "De Tesla Model 3 is een elektrische sedan die ideaal is voor dagelijks gebruik. Met zijn gestroomlijnde ontwerp en geavanceerde elektrische aandrijving biedt de Model 3 een comfortabele en milieuvriendelijke rijervaring. Het interieur is ruim en voorzien van moderne technologieën.",
   "specs": {
@@ -237,7 +237,7 @@
 {
   "name": "Honda Accord Hybrid",
   "description": "Hybride sedan met luxe kenmerken",
-  "price": "€35.000",
+  "price": "€25.000",
   "image": "img/honda1.jpg",
   "extended_description": "De Honda Accord Hybrid is een elegante hybride sedan die luxe en efficiëntie combineert. Met zijn geavanceerde hybride aandrijving biedt de Accord een soepele rijervaring en uitstekende brandstofefficiëntie. Het interieur is ruim, comfortabel en voorzien van hoogwaardige materialen en moderne technologieën.",
   "specs": {

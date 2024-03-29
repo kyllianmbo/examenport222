@@ -12,7 +12,7 @@ $(document).ready(function() {
          var productHTML = `
             <div class="product">
                <div class="product-images">
-                  <img src="${product.image}" alt="${product.name}">
+                  <img src="${product.image}" alt="${product.name}">  
                </div>
                <div class="product-details">
                   <h2 class="product-name">${product.name}</h2>
@@ -20,7 +20,7 @@ $(document).ready(function() {
                   <div class="product-price">
                      <span class="price">${product.price}</span>
                   </div>
-                  <button class="add-to-cart">Contact opnemen met verkoper</button>
+                  <a href="contactform.html"><button class="add-to-cart">Contact opnemen met verkoper</button></a>
                   <div class="product-description-extended">
                      <h3>Uitgebreide Beschrijving:</h3>
                      <p>${product.extended_description}</p>
