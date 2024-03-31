@@ -5,6 +5,7 @@ $(document).ready(function() {
 
    // Laad de juiste productgegevens op basis van de productnaam
    $.getJSON("product.json", function(products) {
+      // Zoek het product in de lijst met producten die overeenkomt met de opgegeven productnaam
       var product = products.find(p => p.name === productName);
 
       if (product) {
@@ -20,6 +21,7 @@ $(document).ready(function() {
                   <div class="product-price">
                      <span class="price">${product.price}</span>
                   </div>
+                  <!-- Voeg een knop toe om contact op te nemen met de verkoper -->
                   <a href="contactform.html"><button class="add-to-cart">Contact opnemen met verkoper</button></a>
                   <div class="product-description-extended">
                      <h3>Uitgebreide Beschrijving:</h3>
@@ -36,7 +38,7 @@ $(document).ready(function() {
             </div>
          `;
 
-         // Voeg het productHTML toe aan de productContainer
+         // Voeg het productHTML toe aan de productContainer in de HTML
          $("#product-container").append(productHTML);
       } else {
          // Toon een foutmelding als het product niet gevonden is

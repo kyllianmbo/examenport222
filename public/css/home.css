@@ -261,54 +261,65 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    background-color: #135cc2; /* donkergrijze achtergrond voor het formulier */
+    background-color: #f8f9fa; /* Zachte grijze achtergrond */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
- }
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* schaduw */
+}
 
- .container h1 {
+.container h1 {
     text-align: center;
- }
+    color: #007bff; /*  voor de titel */
+    margin-bottom: 20px; /* Verhoogde ruimte onder de titel */
+}
 
- .form-group {
-    margin-bottom: 20px;
- }
+.form-group {
+    margin-bottom: 25px; /* Iets grotere afstand tussen groepen */
+}
 
- .form-group label {
+.form-group label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px; /* Iets grotere afstand tussen labels */
     font-weight: bold;
- }
+    color: #555; /* Zachtere kleur voor labels */
+}
 
- .form-group input[type="text"],
- .form-group input[type="email"],
- .form-group textarea {
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
     width: 100%;
-    padding: 10px;
+    padding: 12px; /* Grotere padding voor invoervelden */
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #fff; /* witte achtergrond voor de invoervelden */
-    color: #333; /* donkere tekstkleur voor de invoervelden */
- }
+    background-color: #fff;
+    color: #444; /* Zachtere tekstkleur */
+    transition: border-color 0.3s; 
+}
 
- .form-group textarea {
+.form-group textarea {
     resize: vertical;
     min-height: 100px;
- }
+}
 
- button[type="submit"] {
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+    border-color: #007bff; 
+}
+
+button[type="submit"] {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     background-color: #007bff;
     border: none;
     color: #fff;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
- }
+    transition: background-color 0.3s; /* Vloeiendere overgang bij hover */
+}
 
- button[type="submit"]:hover {
+button[type="submit"]:hover {
     background-color: #0056b3;
- }
+}

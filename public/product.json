@@ -9,7 +9,7 @@
       "Motor": "4.0-liter twin-turbo V8",
       "Vermogen": "600 pk",
       "Koppel": "800 Nm", 
-      "Acceleratie (0-100 km/u)": "3.6 seconden",
+      "Kilometerstand": "5000 km",
       "Topsnelheid": "250 km/u (begrensd, optioneel 305 km/u met Dynamic Package Plus)",
       "Transmissie": "8-traps automaat",
       "Brandstofverbruik": "11.6"
@@ -27,7 +27,7 @@
       "Koppel": "980 Nm",
       "Acceleratie (0-100 km/u)": "2.4 seconden",
       "Topsnelheid": "250 km/u",
-      "Actieradius": "600 km",
+      "Kilometerstand": "600 km",
       "Oplaadtijd (Supercharger)": "15 minuten (voor 320 km bereik)"
     }
   },
@@ -43,7 +43,7 @@
       "Koppel": "637 Nm",
       "Acceleratie (0-100 km/u)": "2.8 seconden",
       "Topsnelheid": "315 km/u",
-      "Transmissie": "6-traps automaat",
+      "Kilometerstand": "10000 km",
       "Brandstofverbruik": "11.7 l/100km"
     }
   },
@@ -60,7 +60,7 @@
       "Koppel": "577 Nm",
       "Acceleratie (0-100 km/u)": "3.8 seconden",
       "Topsnelheid": "324 km/u",
-      "Transmissie": "5-traps handgeschakeld",
+      "Kilometerstand": "5000 km",
       "Brandstofverbruik": "Niet gespecificeerd"
   }
 },
@@ -77,7 +77,7 @@
     "Koppel": "850 Nm",
     "Acceleratie (0-100 km/u)": "3.6 seconden",
     "Topsnelheid": "305 km/u",
-    "Transmissie": "8-traps automaat",
+    "Kilometerstand": "100.000 km",
     "Brandstofverbruik": "Niet gespecificeerd"
 }
 
@@ -92,7 +92,7 @@
   "specs": {
     "Motor": "2.6-liter twin-turbo inline-6",
     "Vermogen": "276 pk",
-    "Koppel": "392 Nm",
+    "Kilometerstand": "392 km",
     "Acceleratie (0-100 km/u)": "4.9 seconden",
     "Topsnelheid": "250 km/u"
 }
@@ -112,7 +112,7 @@
       "Koppel": "980 Nm",
       "Acceleratie (0-100 km/u)": "2.4 seconden",
       "Topsnelheid": "250 km/u",
-      "Actieradius": "600 km"
+      "Kilometerstand": "600 km"
     }
   },
 
@@ -128,7 +128,7 @@
       "Koppel": "850 Nm",
       "Acceleratie (0-100 km/u)": "3.2 seconden",
       "Topsnelheid": "260 km/u",
-      "Actieradius": "420 km",
+      "Kilometerstand": "420 km",
       "Oplaadtijd (DC snelladen)": "22.5 minuten (van 5% naar 80%)"
     
   }
@@ -146,7 +146,7 @@
     "Motor": "Elektrische aandrijving",
     "Vermogen": "170 pk",
     "Koppel": "250 Nm",
-    "Actieradius": "260 km (WLTP)"
+    "Kilometerstand": "1065 km"
 }
 
 },
@@ -163,7 +163,7 @@
     "Koppel": "931 Nm",
     "Acceleratie (0-100 km/u)": "3.8 seconden",
     "Topsnelheid": "250 km/u",
-    "Actieradius": "500 km"
+    "Kilometerstand": "500 km"
 }
 
 },
@@ -180,7 +180,7 @@
     "Koppel": "TBD",
     "Acceleratie (0-100 km/u)": "TBD",
     "Topsnelheid": "TBD",
-    "Actieradius": "TBD"
+    "Kilometerstand": "5151 km"
 }
 
 },
@@ -197,7 +197,7 @@
     "Koppel": "640 Nm",
     "Acceleratie (0-100 km/u)": "3.1 seconden",
     "Topsnelheid": "250 km/u",
-    "Actieradius": "500 km"
+    "Kilometerstand": "50.000 km"
 }
 
 },
@@ -212,7 +212,7 @@
     "Motor": "1.8-liter benzinemotor + elektromotor",
     "Vermogen (samen)": "121 pk",
     "Brandstofverbruik": "4.2 l/100km",
-    "CO2-uitstoot": "97 g/km",
+    "Kilometerstand": "97.000km",
     "Topsnelheid": "180 km/u",
     "Acceleratie (0-100 km/u)": "10.6 seconden"
 }
@@ -229,7 +229,7 @@
     "Motor": "2.0-liter benzinemotor + elektromotor",
     "Vermogen (samen)": "181 pk",
     "Brandstofverbruik": "5.0 l/100km",
-    "CO2-uitstoot": "116 g/km",
+    "Kilometerstand": "116.000 km",
     "Topsnelheid": "177 km/u",
     "Acceleratie (0-100 km/u)": "8.5 seconden"
   }
@@ -243,7 +243,7 @@
   "specs": {
     "Motor": "2.0-liter benzinemotor + elektromotor",
     "Vermogen (samen)": "212 pk",
-    "Brandstofverbruik": "5.0 l/100km",
+    "Kilometerstand": "10.512 km",
     "CO2-uitstoot": "114 g/km",
     "Topsnelheid": "200 km/u",
     "Acceleratie (0-100 km/u)": "7.1 seconden"
