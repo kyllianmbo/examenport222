@@ -248,5 +248,41 @@
     "Topsnelheid": "200 km/u",
     "Acceleratie (0-100 km/u)": "7.1 seconden"
   }
+},
+
+{
+  "name": "Vantrue N2 Pro",
+  "description": "Dashcam met dubbele camera's voor hoogwaardige video-opnamen",
+  "price": "€40",
+  "image": "img/Vantrue.png",
+  "extended_description": "De Vantrue N2 Pro is een geavanceerde dashcam ontworpen voor bestuurders die op zoek zijn naar hoogwaardige video-opnamen en betrouwbare prestaties. Met zijn dubbele camera's kan de N2 Pro gelijktijdig opnemen aan de voor- en achterzijde van het voertuig, waardoor een uitgebreid overzicht van de weg wordt geboden. Dankzij de Sony-sensoren biedt deze dashcam scherpe beelden, zelfs bij weinig licht. Met functies zoals loop-opname en parkeerbewaking biedt de Vantrue N2 Pro gemoedsrust tijdens het rijden en parkeren.",
+  "specs": {
+  "Resolutie": "Front: 2560x1440 @ 30fps, Rear: 1920x1080 @ 30fps",
+  "Kijkhoek": "Front: 170°, Rear: 140°",
+  "Scherm": "1.5-inch LCD",
+  "Opslag": "MicroSD-kaart (tot 256 GB)",
+  "Nachtkwaliteit": "Infrarood nachtzicht",
+  "Parkeerbewaking": "Ja"
 }
+
+},
+
+{
+  "name": "Nextbase 522GW",
+  "description": "Geavanceerde dashcam met Ultra HD-opnamen en GPS-tracking",
+  "price": "€30",
+  "image": "img/Nextbase 522GW.jpg",
+  "extended_description": "De Nextbase 522GW is een toonaangevende dashcam met indrukwekkende functies voor bestuurders die streven naar geavanceerde videokwaliteit en connectiviteit. Met zijn Ultra HD-resolutie legt de 522GW haarscherpe beelden vast, zelfs bij hoge snelheden. Deze dashcam is uitgerust met GPS-tracking voor nauwkeurige locatiegegevens en ondersteunt Alexa-integratie voor handsfree bediening en toegang tot slimme functies. De Nextbase 522GW biedt een perfecte combinatie van beeldkwaliteit, functionaliteit en gebruiksgemak.",
+  "specs": {
+  "Resolutie": "1440p @ 30fps",
+  "Kijkhoek": "140°",
+  "Scherm": "3-inch touchscreen",
+  "Opslag": "MicroSD-kaart (tot 128 GB)",
+  "GPS-tracking": "Ja",
+  "Alexa-integratie": "Ja"
+}
+}
+
+
+
 ]
