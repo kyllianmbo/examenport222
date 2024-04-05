@@ -1,0 +1,30 @@
+<!-- checkout.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Checkout</title>
+</head>
+<body>
+   <h1>Checkout</h1>
+   <div id="order-summary-container"></div>
+
+   <form id="checkout-form">
+      <!-- Shipping Information -->
+      <h2>Shipping Information</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <!-- Add more input fields for shipping address, contact information, etc. -->
+
+      <!-- Payment Information -->
+      <h2>Payment Information</h2>
+      <!-- Add input fields for payment details such as credit card number, expiration date, CVV, etc. -->
+
+      <button type="submit">Place Order</button>
+   </form>
+
+   <script src="checkout.js"></script>
+</body>
+</html>
