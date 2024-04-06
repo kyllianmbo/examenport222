@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Event listener for checkout button
     checkoutBtn.addEventListener('click', function() {
-        // Implement checkout functionality here
-        alert('Redirecting to checkout page...');
+        // Redirect to checkout page
+        window.location.href = 'checkout.html';
     });
 });
