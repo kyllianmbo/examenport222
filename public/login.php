@@ -31,7 +31,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $row = $result->fetch_assoc();
         if (password_verify($password, $row['password'])) {
             echo "Inloggen succesvol!";
-            // Hier kun je de gebruiker doorverwijzen naar een andere pagina na succesvol inloggen
+            // Na succesvol inloggen doorverwijzen naar de startpagina
+            header("Location: index.html");
+            exit();
         } else {
             echo "Ongeldige gebruikersnaam of wachtwoord.";
         }

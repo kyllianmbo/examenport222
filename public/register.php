@@ -35,7 +35,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Voer de instructie uit
     if ($stmt->execute()) {
-        echo "Registratie succesvol!";
+        // Registratie succesvol!
+        // Voer hier de doorverwijzing naar de inlogpagina uit
+        header("Location: login.html");
+        exit();
     } else {
         echo "Fout: " . $sql . "<br>" . $conn->error;
     }
