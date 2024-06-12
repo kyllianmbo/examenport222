@@ -11,28 +11,30 @@ $(document).ready(function() {
       if (product) {
          // Bouw de HTML voor het product
          var productHTML = `
-            <div class="product">
-               <div class="product-images">
-                  <img src="${product.image}" alt="${product.name}">  
-               </div>
-               <div class="product-details">
-                  <h2 class="product-name">${product.name}</h2>
-                  <p class="product-description">${product.description}</p>
-                  <div class="product-price">
-                     <span class="price">${product.price}</span>
-                  </div>
-                  <!-- Voeg een knop toe om contact op te nemen met de verkoper -->
-                  <a href="contactform.html"><button class="add-to-cart">Contact opnemen met verkoper</button></a>
-                  <div class="product-description-extended">
-                     <h3>Uitgebreide Beschrijving:</h3>
-                     <p>${product.extended_description}</p>
-                  </div>
-                  <div class="product-specs">
-                     <h3>Specificaties:</h3>
-                     <ul>
-                        <!-- Loop door elke specificatie en voeg deze toe aan de lijst -->
-                        ${Object.entries(product.specs).map(([key, value]) => `<li><strong>${key}:</strong> ${value}</li>`).join('')}
-                     </ul>
+            <div class="col-md-8 offset-md-2">
+               <div class="card mb-4 shadow-sm border-primary">
+                  <img src="${product.image}" class="card-img-top" alt="${product.name}">
+                  <div class="card-body bg-light">
+                     <h5 class="card-title text-primary">${product.name}</h5>
+                     <p class="card-text">${product.description}</p>
+                     <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div>
+                           <span class="text-primary fw-bold">${product.price}</span>
+                           <span class="text-muted text-decoration-line-through">${product.actualPrice}</span>
+                        </div>
+                        <span class="badge bg-danger">${product.discount}</span>
+                     </div>
+                     <a href="contactform.html" class="btn btn-success w-100">Contact opnemen met verkoper</a>
+                     <div class="product-description-extended mt-4">
+                        <h3 class="text-secondary">Uitgebreide Beschrijving:</h3>
+                        <p>${product.extended_description}</p>
+                     </div>
+                     <div class="product-specs mt-3">
+                        <h3 class="text-secondary">Specificaties:</h3>
+                        <ul class="list-group list-group-flush">
+                           ${Object.entries(product.specs).map(([key, value]) => `<li class="list-group-item"><strong>${key}:</strong> ${value}</li>`).join('')}
+                        </ul>
+                     </div>
                   </div>
                </div>
             </div>

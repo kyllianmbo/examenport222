@@ -30,19 +30,19 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="auto.html">Auto's</a>
+              <a class="nav-link" href="auto.php">Auto's</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="elektrisch.html">Elektrische auto's</a>
+              <a class="nav-link" href="elektrisch.php">Elektrische auto's</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="hybrid.html">Hybride auto's</a>
+              <a class="nav-link" href="hybrid.php">Hybride auto's</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="accessories.html">Accessoires</a>
+              <a class="nav-link" href="accessories.php">Accessoires</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="cart.html">Cart</a>
+              <a class="nav-link" href="cart.php">Cart</a>
             </li>
           </ul>
           <ul class="navbar-nav">

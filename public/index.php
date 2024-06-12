@@ -24,22 +24,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="auto.html">Auto's</a>
+              <a class="nav-link" href="auto.php">Auto's</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="elektrisch.html">Elektrische auto's</a>
+              <a class="nav-link" href="elektrisch.php">Elektrische auto's</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="hybrid.html">Hybride auto's</a>
+              <a class="nav-link" href="hybrid.php">Hybride auto's</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="accessories.html">Accessoires</a>
+              <a class="nav-link" href="accessories.php">Accessoires</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="cart.html">Cart</a>
+              <a class="nav-link" href="cart.php">Cart</a>
             </li>
           </ul>
           <ul class="navbar-nav">
@@ -85,29 +85,24 @@
    <h2 class="product-category">Alle auto's</h2>
    <div class="product-container">
       <div class="product-card">
-         
          <div class="product-image">
             <span class="discount-tag">10% off</span>
-            <a href="product.html?product=Audi Rs7" class="product-link">
-            <img src="img/audi rs7.jpg" class="product-thumb" alt="">
+            <a href="product.php?product=Audi Rs7" class="product-link">
+               <img src="img/audi rs7.jpg" class="product-thumb" alt="">
             </a>
             <button class="card-btn">toevoegen aan whislist</button>
          </div>
          <div class="product-info">
-           
             <h2 class="product-brand">Audi</h2>
-     
             <p class="product-short-des">Audi Rs7: Krachtige en luxe sportback.</p>
             <span class="price">€45.000 </span><span class="actual-price">€50.000</span>
-
-
          </div>
       </div>
       <div class="product-card">
          <div class="product-image">
             <span class="discount-tag">10% off</span>
-            <a href="product.html?product=Mercedes G Wagon" class="product-link">
-            <img src="img/mercedes1.jpg" class="product-thumb" alt="">
+            <a href="product.php?product=Mercedes G Wagon" class="product-link">
+               <img src="img/mercedes1.jpg" class="product-thumb" alt="">
             </a>
             <button class="card-btn">toevoegen aan whislist</button>
          </div>
@@ -115,232 +110,148 @@
             <h2 class="product-brand">Mercedes</h2>
             <p class="product-short-des">Mercedes G Wagon - Robuuste en luxueuze terreinwagen</p>
             <span class="price">90.000 </span><span class="actual-price">€100.000</span>
-
-
          </div>
       </div>
       <div class="product-card">
          <div class="product-image">
             <span class="discount-tag">10% off</span>
-            <a href="product.html?product=Nissan GTR 2017" class="product-link">
-            <img src="img/nissan1.jpg" class="product-thumb" alt="">
+            <a href="product.php?product=Nissan GTR 2017" class="product-link">
+               <img src="img/nissan1.jpg" class="product-thumb" alt="">
             </a>
-            <button class="card-btn">toevoegen aan whislist</button> 
+            <button class="card-btn">toevoegen aan whislist</button>
          </div>
          <div class="product-info">
             <h2 class="product-brand">Nissan</h2>
             <p class="product-short-des">Nissan Gtr 2017-Sportieve coupé met krachtige prestaties</p>
-            <span class="price">€`110.000 </span><span class="actual-price">€100.000</span> 
-
-<!-- rij 2 -->
-            
+            <span class="price">€110.000 </span><span class="actual-price">€100.000</span>
          </div>
       </div>
       <div class="product-card">
          <div class="product-image">
-            <!-- <span class="discount-tag">10% off</span> -->
-            <a href="product.html?product=Ferrari F40" class="product-link">
-            <img src="img/ferrari1.jpg" class="product-thumb" alt="">
+            <a href="product.php?product=Ferrari F40" class="product-link">
+               <img src="img/ferrari1.jpg" class="product-thumb" alt="">
             </a>
-            <button class="card-btn">toevoegen aan whislist</button> 
+            <button class="card-btn">toevoegen aan whislist</button>
          </div>
          <div class="product-info">
             <h2 class="product-brand">Ferrari</h2>
             <p class="product-short-des">Ferrari F40- Legendarische supersportwagen</p>
             <span class="price">€800.000</span>
-
-
-
-            
          </div>
       </div>
       <div class="product-card">
          <div class="product-image">
-            <!-- <span class="discount-tag">10% off</span> -->
-            <a href="product.html?product=Lamborghini Urus" class="product-link">
-            <img src="img/lambo1.jpg" class="product-thumb" alt="">
+            <a href="product.php?product=Lamborghini Urus" class="product-link">
+               <img src="img/lambo1.jpg" class="product-thumb" alt="">
             </a>
-            <button class="card-btn">toevoegen aan whislist</button> 
+            <button class="card-btn">toevoegen aan whislist</button>
          </div>
          <div class="product-info">
             <h2 class="product-brand">Lamborghini Urus</h2>
             <p class="product-short-des">Lamborghini Urus - Luxe SUV met supercar-prestaties</p>
             <span class="price">€250.000</span>
-
-
-            
          </div>
       </div>
-      
       <div class="product-card">
          <div class="product-image">
-            <!-- <span class="discount-tag">10% off</span> -->
-            <a href="product.html?product=Nissan Skyline R34 GTR" class="product-link">
-            <img src="img/nissan22.jpg" class="product-thumb" alt="">
+            <a href="product.php?product=Nissan Skyline R34 GTR" class="product-link">
+               <img src="img/nissan22.jpg" class="product-thumb" alt="">
             </a>
-            <button class="card-btn">toevoegen aan whislist</button> 
+            <button class="card-btn">toevoegen aan whislist</button>
          </div>
          <div class="product-info">
             <h2 class="product-brand">Nissan</h2>
             <p class="product-short-des">Skyline R34 GTR - Iconische sportauto uit Japan</p>
             <span class="price">€120.000</span>
-
-
-<br><br>
-         
-
-
-         
-      </div>
-
-
-
-
          </div>
       </div>
-      
    </div>
- </section>
+</section>
 
-
-
-
-      <!-- kaart elektrisch-->
-      <section class="product">
-         <h2 class="product-category">Alle elektrische auto's</h2>
-         <div class="product-container">
-            <div class="product-card">
-               <div class="product-image">
-                  <!-- <span class="discount-tag">10% off</span> -->
-                  <a href="product.html?product=Tesla Model S" class="product-link">
-                  <img src="img/tesla1.jpg" class="product-thumb" alt="">
-                  </a>
-                  <button class="card-btn">toevoegen aan whislist</button>
-               </div>
-               <div class="product-info">
-                  <h2 class="product-brand">Tesla</h2>
-                  <p class="product-short-des">Tesla Model S: Elektrisch, krachtig, geavanceerd, stijlvol.</p>
-                  <span class="price">€90.000 </span>
-
-
-               </div>
-            </div>
-            <div class="product-card">
-               <div class="product-image">
-                  <!-- <span class="discount-tag">10% off</span> -->
-                  <a href="product.html?product=Porsche Taycan" class="product-link">
-                  <img src="img/porsche1.jpg" class="product-thumb" alt="">
-                  </a>
-                  <button class="card-btn">toevoegen aan whislist</button>
-               </div>
-               <div class="product-info">
-                  <h2 class="product-brand">Porsche</h2>
-                  <p class="product-short-des">Porsche Taycan: Elektrisch, krachtig, geavanceerd, stijlvol.</p>
-                  <span class="price">€105.000 </span>
-
-
-               </div>
-            </div>
-            <div class="product-card">
-               <div class="product-image">
-                  <!-- <span class="discount-tag">10% off</span> -->
-                  <a href="product.html?product=BMW i3" class="product-link">
-                  <img src="img/bmw1.jpg" class="product-thumb" alt="">
-                  </a>
-                  <button class="card-btn">toevoegen aan whislist</button>
-               </div>
-               <div class="product-info">
-                  <h2 class="product-brand">BMW</h2>
-                  <p class="product-short-des">BMW i3: Elektrische stadsauto.</p>
-                  <span class="price">€40.000 </span>
-
-
-                  <!-- rij 2 elektrisch -->
-               </div>
-            </div>
-            <div class="product-card">
-               <div class="product-image">
-                  <!-- <span class="discount-tag">10% off</span> -->
-                  <a href="product.html?product=Tesla Model X" class="product-link">
-                  <img src="img/teslax.jpg" class="product-thumb" alt="">
-                  </a>
-                  <button class="card-btn">toevoegen aan whislist</button> 
-               </div>
-               <div class="product-info">
-                  <h2 class="product-brand">Tesla</h2>
-                  <p class="product-short-des">Tesla Model X- Elektrische luxe sedan</p>
-                  <span class="price">€80.000</span>
-      
-      
-      
-                  
-               </div>
-            </div>
-            <div class="product-card">
-               <div class="product-image">
-                  <!-- <span class="discount-tag">10% off</span> -->
-                  <a href="product.html?product=Tesla Cybertruck" class="product-link">
-                  <img src="img/tesla2.jpg" class="product-thumb" alt="">
-                  </a>
-                  <button class="card-btn">toevoegen aan whislist</button> 
-               </div>
-               <div class="product-info">
-                  <h2 class="product-brand">Tesla</h2>
-                  <p class="product-short-des">Tesla Cybertruck -Futuristische elektrische pick-uptruck</p>
-                  <span class="price">€150.000</span>
-      
-      
-                  
-               </div>
-            </div>
-            
-            <div class="product-card">
-               <div class="product-image">
-                  <!-- <span class="discount-tag">10% off</span> -->
-                  <a href="product.html?product=Tesla Model 3" class="product-link">
-                  <img src="img/teslamodel3.jpg" class="product-thumb" alt="">
-                  </a>
-                  <button class="card-btn">toevoegen aan whislist</button> 
-               </div>
-               <div class="product-info">
-                  <h2 class="product-brand">Tesla</h2>
-                  <p class="product-short-des">Tesla Model 3 - Elektrische luxe sedan</p>
-                  <span class="price">€70.000</span>
-               </div>
-
-
-               
-            </div>
-
-            
-       
-
-
-               
-
-
-
-
-
-
-<br><br>
-               
-
-
-               
-            </div>
-
-
-
-
-               </div>
-            </div>
-            
+<!-- kaart elektrisch -->
+<section class="product">
+   <h2 class="product-category">Alle elektrische auto's</h2>
+   <div class="product-container">
+      <div class="product-card">
+         <div class="product-image">
+            <a href="product.php?product=Tesla Model S" class="product-link">
+               <img src="img/tesla1.jpg" class="product-thumb" alt="">
+            </a>
+            <button class="card-btn">toevoegen aan whislist</button>
          </div>
-       </section>
-
-
-
+         <div class="product-info">
+            <h2 class="product-brand">Tesla</h2>
+            <p class="product-short-des">Tesla Model S: Elektrisch, krachtig, geavanceerd, stijlvol.</p>
+            <span class="price">€90.000 </span>
+         </div>
+      </div>
+      <div class="product-card">
+         <div class="product-image">
+            <a href="product.php?product=Porsche Taycan" class="product-link">
+               <img src="img/porsche1.jpg" class="product-thumb" alt="">
+            </a>
+            <button class="card-btn">toevoegen aan whislist</button>
+         </div>
+         <div class="product-info">
+            <h2 class="product-brand">Porsche</h2>
+            <p class="product-short-des">Porsche Taycan: Elektrisch, krachtig, geavanceerd, stijlvol.</p>
+            <span class="price">€105.000 </span>
+         </div>
+      </div>
+      <div class="product-card">
+         <div class="product-image">
+            <a href="product.php?product=BMW i3" class="product-link">
+               <img src="img/bmw1.jpg" class="product-thumb" alt="">
+            </a>
+            <button class="card-btn">toevoegen aan whislist</button>
+         </div>
+         <div class="product-info">
+            <h2 class="product-brand">BMW</h2>
+            <p class="product-short-des">BMW i3: Elektrische stadsauto.</p>
+            <span class="price">€40.000 </span>
+         </div>
+      </div>
+      <div class="product-card">
+         <div class="product-image">
+            <a href="product.php?product=Tesla Model X" class="product-link">
+               <img src="img/teslax.jpg" class="product-thumb" alt="">
+            </a>
+            <button class="card-btn">toevoegen aan whislist</button>
+         </div>
+         <div class="product-info">
+            <h2 class="product-brand">Tesla</h2>
+            <p class="product-short-des">Tesla Model X- Elektrische luxe sedan</p>
+            <span class="price">€80.000</span>
+         </div>
+      </div>
+      <div class="product-card">
+         <div class="product-image">
+            <a href="product.php?product=Tesla Cybertruck" class="product-link">
+               <img src="img/tesla2.jpg" class="product-thumb" alt="">
+            </a>
+            <button class="card-btn">toevoegen aan whislist</button>
+         </div>
+         <div class="product-info">
+            <h2 class="product-brand">Tesla</h2>
+            <p class="product-short-des">Tesla Cybertruck - Futuristische elektrische pick-uptruck</p>
+            <span class="price">€150.000</span>
+         </div>
+      </div>
+      <div class="product-card">
+         <div class="product-image">
+            <a href="product.php?product=Tesla Model 3" class="product-link">
+               <img src="img/teslamodel3.jpg" class="product-thumb" alt="">
+            </a>
+            <button class="card-btn">toevoegen aan whislist</button>
+         </div>
+         <div class="product-info">
+            <h2 class="product-brand">Tesla</h2>
+            <p class="product-short-des">Tesla Model 3 - Elektrische luxe sedan</p>
+            <span class="price">€70.000</span>
+         </div>
+      </div>
+   </div>
+</section>
 
 
             <!-- kaart hybrid -->
@@ -350,7 +261,7 @@
       <div class="product-card">
          <div class="product-image">
             <!-- <span class="discount-tag">10% off</span> -->
-            <a href="product.html?product=Toyota Prius" class="product-link">
+            <a href="product.php?product=Toyota Prius" class="product-link">
             <img src="img/toyota1.jpg" class="product-thumb" alt="">
             </a>
             <button class="card-btn">toevoegen aan whislist</button>
@@ -366,7 +277,7 @@
       <div class="product-card">
          <div class="product-image">
             <!-- <span class="discount-tag">10% off</span> -->
-            <a href="product.html?product=Lexus UX 250h" class="product-link">
+            <a href="product.php?product=Lexus UX 250h" class="product-link">
             <img src="img/lexus1.jpg" class="product-thumb" alt="">
             </a>
             <button class="card-btn">toevoegen aan whislist</button>
@@ -382,7 +293,7 @@
       <div class="product-card">
          <div class="product-image">
             <!-- <span class="discount-tag">10% off</span> -->
-            <a href="product.html?product=Honda Accord Hybrid" class="product-link">
+            <a href="product.php?product=Honda Accord Hybrid" class="product-link">
             <img src="img/honda1.jpg" class="product-thumb" alt="">
             </a>
             <button class="card-btn">toevoegen aan whislist</button>

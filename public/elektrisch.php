@@ -6,17 +6,14 @@
    <title>AutoWarella - De beste autowebshop van Nederland!</title>
    <link rel="stylesheet" href="css/home.css">
    <link rel="stylesheet" href="css/footer.css">
-
+   <!-- Bootstrap CSS -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Optioneel: Bootstrap-icons CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
-<!-- Bootstrap JavaScript (optioneel, als je JavaScript-functionaliteit van Bootstrap wilt gebruiken) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- Optioneel: Bootstrap-icons CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="img/logo2.jpg" class="brand-logo" alt="">
@@ -30,28 +27,45 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="auto.html">Auto's</a>
+              <a class="nav-link" href="auto.php">Auto's</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="elektrisch.html">Elektrische auto's</a>
+              <a class="nav-link" href="elektrisch.php">Elektrische auto's</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="hybrid.html">Hybride auto's</a>
+              <a class="nav-link" href="hybrid.php">Hybride auto's</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="accessories.html">Accessoires</a>
+              <a class="nav-link" href="accessories.php">Accessoires</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="cart.html">Cart</a>
+              <a class="nav-link" href="cart.php">Cart</a>
             </li>
           </ul>
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="register.html">Account maken</a>
-            </li>
+            <!-- Check if the user is logged in -->
+            <?php
+            session_start();
+            if(isset($_SESSION['username'])) {
+                // Convert username to uppercase
+                $uppercaseUsername = strtoupper($_SESSION['username']);
+                echo '<li class="nav-item">
+                        <span class="nav-link" id="nav-username">WELKOM ' . $uppercaseUsername . '</span>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="logout.php">Uitloggen</a>
+                      </li>';
+            } else {
+                // If user is not logged in, show login and register links
+                echo '<li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="register.html">Account maken</a>
+                      </li>';
+            }
+            ?>
+            
           </ul>
         </div>
       </div>
