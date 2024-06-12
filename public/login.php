@@ -30,7 +30,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($result->num_rows == 1) {
         $row = $result->fetch_assoc();
         if (password_verify($password, $row['password'])) {
-            echo "Inloggen succesvol!";
+            // Inloggen succesvol, stel de sessievariabele in
+            session_start();
+            $_SESSION['username'] = $username; // Sla de gebruikersnaam op in de sessie
+            $_SESSION['email'] = $row['email']; // Sla het e-mailadres op in de sessie
             // Na succesvol inloggen doorverwijzen naar de startpagina
             header("Location: index.html");
             exit();
