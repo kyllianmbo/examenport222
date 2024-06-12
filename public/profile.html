@@ -41,6 +41,10 @@
         var username = sessionStorage.getItem('username');
         var email = sessionStorage.getItem('email');
 
+        // Log de opgehaalde gebruikersgegevens naar de console voor debugging
+        console.log('Username:', username);
+        console.log('Email:', email);
+
         // Display user data on the page
         document.getElementById('username').textContent = username;
         document.getElementById('email').textContent = email;

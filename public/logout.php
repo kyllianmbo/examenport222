@@ -1,9 +1,14 @@
 <?php
-// logout.php
+// Start de sessie
 session_start();
-session_unset();
+
+// Unset alle sessievariabelen
+$_SESSION = array();
+
+// Vernietig de sessie
 session_destroy();
 
-header("Location: login.html");
+// Doorsturen naar de index pagina
+header("Location: index.php");
 exit();
 ?>

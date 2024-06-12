@@ -7,14 +7,10 @@
    <link rel="stylesheet" href="css/home.css">
    <link rel="stylesheet" href="css/footer.css">
    <!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Optioneel: Bootstrap-icons CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
-<!-- Bootstrap JavaScript (optioneel, als je JavaScript-functionaliteit van Bootstrap wilt gebruiken) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
+   <!-- Optioneel: Bootstrap-icons CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body>
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -47,19 +43,33 @@
             </li>
           </ul>
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="register.html">Account maken</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="profile.html">Profile</a>
+            <!-- Check if the user is logged in -->
+            <?php
+            session_start();
+            if(isset($_SESSION['username'])) {
+                // Convert username to uppercase
+                $uppercaseUsername = strtoupper($_SESSION['username']);
+                echo '<li class="nav-item">
+                        <span class="nav-link" id="nav-username">WELKOM ' . $uppercaseUsername . '</span>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="logout.php">Uitloggen</a>
+                      </li>';
+            } else {
+                // If user is not logged in, show login and register links
+                echo '<li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="register.html">Account maken</a>
+                      </li>';
+            }
+            ?>
+            
           </ul>
         </div>
       </div>
     </nav>
-
    <!-- Header sectie -->
    <header class="hero-section">
       <div class="content">

@@ -34,8 +34,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             session_start();
             $_SESSION['username'] = $username; // Sla de gebruikersnaam op in de sessie
             $_SESSION['email'] = $row['email']; // Sla het e-mailadres op in de sessie
+            
+            // Voeg hier de echo-statements toe om de sessievariabelen te controleren
+            echo "Gebruikersnaam ingesteld in sessie: " . $_SESSION['username'] . "<br>";
+            echo "Email ingesteld in sessie: " . $_SESSION['email'] . "<br>";
+
             // Na succesvol inloggen doorverwijzen naar de startpagina
-            header("Location: index.html");
+            header("Location: index.php");
             exit();
         } else {
             echo "Ongeldige gebruikersnaam of wachtwoord.";
