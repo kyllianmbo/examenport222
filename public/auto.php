@@ -38,9 +38,7 @@
             <li class="nav-item">
               <a class="nav-link" href="accessories.php">Accessoires</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cart.php">Cart</a>
-            </li>
+           
           </ul>
           <ul class="navbar-nav">
             <!-- Check if the user is logged in -->

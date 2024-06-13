@@ -12,6 +12,7 @@
    <!-- Optioneel: Bootstrap-icons CSS -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
+
 <body>
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -38,9 +39,7 @@
             <li class="nav-item">
               <a class="nav-link" href="accessories.php">Accessoires</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cart.php">Cart</a>
-            </li>
+          
           </ul>
           <ul class="navbar-nav">
             <!-- Check if the user is logged in -->

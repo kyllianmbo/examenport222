@@ -24,7 +24,7 @@ $(document).ready(function() {
                         </div>
                         <span class="badge bg-danger">${product.discount}</span>
                      </div>
-                     <a href="contactform.html" class="btn btn-success w-100">Contact opnemen met verkoper</a>
+                     <a href="contactform.php" class="btn btn-success w-100">Contact opnemen met verkoper</a>
                      <div class="product-description-extended mt-4">
                         <h3 class="text-secondary">Uitgebreide Beschrijving:</h3>
                         <p>${product.extended_description}</p>
