@@ -1,3 +1,5 @@
+<?php include_once 'dbconfig.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -71,12 +73,11 @@
     </nav>
     
    <header class="hero-section5">
-
-      
    </header>
-   <div class="container">
-      <h1>Neem contact op met de verkoper!</h1>
-      <form action="https://formsubmit.co/da0f1a6a9303b3f2abf41bf9ee80ef6e " method="POST">
+   
+   <div class="container mt-5">
+      <h1>Vragen over deze auto?</h1>
+      <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
          <div class="form-group">
             <label for="name">Naam:</label>
             <input type="text" id="name" name="name" required>
@@ -93,13 +94,40 @@
             <label for="message">Bericht:</label>
             <textarea id="message" name="message" required></textarea>
          </div>
-         <button type="submit">Verzenden</button>
+         <button type="submit" class="btn btn-primary">Verzenden</button>
       </form>
+
+      <?php
+      // Controleer of het formulier is ingediend
+      if ($_SERVER["REQUEST_METHOD"] == "POST") {
+          // Inclusief databaseverbinding
+          include_once 'dbconfig.php';
+
+          // Ontvang en beveilig de ingediende gegevens
+          $name = htmlspecialchars($_POST['name']);
+          $email = htmlspecialchars($_POST['email']);
+          $subject = htmlspecialchars($_POST['subject']);
+          $message = htmlspecialchars($_POST['message']);
+
+          // Voorbereid SQL-statement om gegevens in te voegen in de tabel contact_messages
+          $sql = "INSERT INTO contact_messages (name, email, subject, message) VALUES (?, ?, ?, ?)";
+
+          // Voorbereid de SQL-query
+          $stmt = $pdo->prepare($sql);
+
+          // Voer de query uit en voeg de gegevens in
+          if ($stmt->execute([$name, $email, $subject, $message])) {
+              // Succesvol ingevoegd
+              echo "<p>Bericht succesvol verzonden. We zullen zo spoedig mogelijk contact met u opnemen!</p>";
+          } else {
+              // Fout bij invoegen
+              echo "<p>Er is een probleem opgetreden bij het verzenden van uw bericht. Probeer het later opnieuw.</p>";
+          }
+      }
+      ?>
    </div>
 
+   <!-- Voeg hier de JavaScript- en Bootstrap JavaScript-links toe indien nodig -->
 
-          </div>
-      
-          
 </body>
 </html>
