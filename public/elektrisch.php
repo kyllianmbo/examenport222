@@ -92,7 +92,7 @@
             <div class="product-card">
                <div class="product-image">
                   <!-- <span class="discount-tag">10% off</span> -->
-                  <a href="product.html?product=Tesla Model S" class="product-link">
+                  <a href="product.php?product=Tesla Model S" class="product-link">
                   <img src="img/tesla1.jpg" class="product-thumb" alt="">
                   </a>
                   <button class="card-btn">toevoegen aan whislist</button>
@@ -108,7 +108,7 @@
             <div class="product-card">
                <div class="product-image">
                   <!-- <span class="discount-tag">10% off</span> -->
-                  <a href="product.html?product=Porsche Taycan" class="product-link">
+                  <a href="product.php?product=Porsche Taycan" class="product-link">
                   <img src="img/porsche1.jpg" class="product-thumb" alt="">
                   </a>
                   <button class="card-btn">toevoegen aan whislist</button>
@@ -124,7 +124,7 @@
             <div class="product-card">
                <div class="product-image">
                   <!-- <span class="discount-tag">10% off</span> -->
-                  <a href="product.html?product=BMW i3" class="product-link">
+                  <a href="product.php?product=BMW i3" class="product-link">
                   <img src="img/bmw1.jpg" class="product-thumb" alt="">
                   </a>
                   <button class="card-btn">toevoegen aan whislist</button>
@@ -141,7 +141,7 @@
             <div class="product-card">
                <div class="product-image">
                   <!-- <span class="discount-tag">10% off</span> -->
-                  <a href="product.html?product=Tesla Model X" class="product-link">
+                  <a href="product.php?product=Tesla Model X" class="product-link">
                   <img src="img/teslax.jpg" class="product-thumb" alt="">
                   </a>
                   <button class="card-btn">toevoegen aan whislist</button> 
@@ -159,7 +159,7 @@
             <div class="product-card">
                <div class="product-image">
                   <!-- <span class="discount-tag">10% off</span> -->
-                  <a href="product.html?product=Tesla Cybertruck" class="product-link">
+                  <a href="product.php?product=Tesla Cybertruck" class="product-link">
                   <img src="img/tesla2.jpg" class="product-thumb" alt="">
                   </a>
                   <button class="card-btn">toevoegen aan whislist</button> 
@@ -177,7 +177,7 @@
             <div class="product-card">
                <div class="product-image">
                   <!-- <span class="discount-tag">10% off</span> -->
-                  <a href="product.html?product=Tesla Model 3" class="product-link">
+                  <a href="product.php?product=Tesla Model 3" class="product-link">
                   <img src="img/teslamodel3.jpg" class="product-thumb" alt="">
                   </a>
                   <button class="card-btn">toevoegen aan whislist</button> 

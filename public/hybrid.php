@@ -89,7 +89,7 @@
       <div class="product-card">
          <div class="product-image">
             <!-- <span class="discount-tag">10% off</span> -->
-            <a href="product.html?product=Toyota Prius" class="product-link">
+            <a href="product.php?product=Toyota Prius" class="product-link">
             <img src="img/toyota1.jpg" class="product-thumb" alt="">
             </a>
             <button class="card-btn">toevoegen aan whislist</button>
@@ -105,7 +105,7 @@
       <div class="product-card">
          <div class="product-image">
             <!-- <span class="discount-tag">10% off</span> -->
-            <a href="product.html?product=Lexus UX 250h" class="product-link">
+            <a href="product.php?product=Lexus UX 250h" class="product-link">
             <img src="img/lexus1.jpg" class="product-thumb" alt="">
             </a>
             <button class="card-btn">toevoegen aan whislist</button>
@@ -121,7 +121,7 @@
       <div class="product-card">
          <div class="product-image">
             <!-- <span class="discount-tag">10% off</span> -->
-            <a href="product.html?product=Honda Accord Hybrid" class="product-link">
+            <a href="product.php?product=Honda Accord Hybrid" class="product-link">
             <img src="img/honda1.jpg" class="product-thumb" alt="">
             </a>
             <button class="card-btn">toevoegen aan whislist</button>

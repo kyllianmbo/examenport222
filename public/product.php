@@ -11,10 +11,47 @@
    <!-- Optioneel: Bootstrap-icons CSS -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
    <style>
-      .card-img-top {
+      .product-card {
+         margin-bottom: 30px; /* Ruimte tussen de kaarten */
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         border: 1px solid #ddd; /* Voeg een rand toe aan de kaarten */
+         border-radius: 10px;
+         overflow: hidden;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Voeg een schaduw toe */
+      }
+      .product-image {
+         position: relative;
          width: 100%;
-         height: 400px; /* Pas de hoogte van de afbeelding aan */
-         object-fit: cover;
+         height: 100px; /* Zorg ervoor dat alle afbeeldingen dezelfde hoogte hebben */
+         overflow-y: scroll; /* Maak het scrollbaar */
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+      .product-image img {
+         width: 100%;
+         height: auto; /* Zorg ervoor dat de hoogte automatisch wordt aangepast */
+         object-fit: contain; /* Zorg ervoor dat de afbeelding volledig zichtbaar is binnen de container */
+      }
+      .product-info {
+         padding: 15px;
+         text-align: center;
+         flex: 1;
+      }
+      .card-btn {
+         margin-top: 10px;
+         padding: 10px 20px;
+         background-color: #007bff;
+         color: white;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         transition: background-color 0.3s ease;
+      }
+      .card-btn:hover {
+         background-color: #0056b3;
       }
    </style>
 </head>
@@ -80,6 +117,42 @@
    <div class="container mt-5">
       <div id="product-container" class="row">
          <!-- Producten zullen hier worden ingeladen -->
+         <div class="col-md-4">
+            <div class="product-card">
+               <div class="product-image">
+                  <img src="img/product1.jpg" alt="Product 1" class="card-img-top">
+               </div>
+               <div class="product-info">
+                  <h5 class="product-title">Product 1</h5>
+                  <p class="product-description">Beschrijving van product 1.</p>
+                  <button class="card-btn">Koop nu</button>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4">
+            <div class="product-card">
+               <div class="product-image">
+                  <img src="img/product2.jpg" alt="Product 2" class="card-img-top">
+               </div>
+               <div class="product-info">
+                  <h5 class="product-title">Product 2</h5>
+                  <p class="product-description">Beschrijving van product 2.</p>
+                  <button class="card-btn">Koop nu</button>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4">
+            <div class="product-card">
+               <div class="product-image">
+                  <img src="img/product3.jpg" alt="Product 3" class="card-img-top">
+               </div>
+               <div class="product-info">
+                  <h5 class="product-title">Product 3</h5>
+                  <p class="product-description">Beschrijving van product 3.</p>
+                  <button class="card-btn">Koop nu</button>
+               </div>
+            </div>
+         </div>
       </div>
    </div>
 

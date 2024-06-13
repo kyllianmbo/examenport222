@@ -90,7 +90,7 @@
          
          <div class="product-image">
             <span class="discount-tag">10% off</span>
-            <a href="product.html?product=Audi Rs7" class="product-link">
+            <a href="product.php?product=Audi Rs7" class="product-link">
             <img src="img/audi rs7.jpg" class="product-thumb" alt="">
             </a>
             <button class="card-btn">toevoegen aan whislist</button>
@@ -108,7 +108,7 @@
       <div class="product-card">
          <div class="product-image">
             <span class="discount-tag">10% off</span>
-            <a href="product.html?product=Mercedes G Wagon" class="product-link">
+            <a href="product.php?product=Mercedes G Wagon" class="product-link">
             <img src="img/mercedes1.jpg" class="product-thumb" alt="">
             </a>
             <button class="card-btn">toevoegen aan whislist</button>
@@ -124,7 +124,7 @@
       <div class="product-card">
          <div class="product-image">
             <span class="discount-tag">10% off</span>
-            <a href="product.html?product=Nissan GTR 2017" class="product-link">
+            <a href="product.php?product=Nissan GTR 2017" class="product-link">
             <img src="img/nissan1.jpg" class="product-thumb" alt="">
             </a>
             <button class="card-btn">toevoegen aan whislist</button> 
@@ -141,7 +141,7 @@
       <div class="product-card">
          <div class="product-image">
             <!-- <span class="discount-tag">10% off</span> -->
-            <a href="product.html?product=Ferrari F40" class="product-link">
+            <a href="product.php?product=Ferrari F40" class="product-link">
             <img src="img/ferrari1.jpg" class="product-thumb" alt="">
             </a>
             <button class="card-btn">toevoegen aan whislist</button> 
@@ -159,7 +159,7 @@
       <div class="product-card">
          <div class="product-image">
             <!-- <span class="discount-tag">10% off</span> -->
-            <a href="product.html?product=Lamborghini Urus" class="product-link">
+            <a href="product.php?product=Lamborghini Urus" class="product-link">
             <img src="img/lambo1.jpg" class="product-thumb" alt="">
             </a>
             <button class="card-btn">toevoegen aan whislist</button> 
@@ -177,7 +177,7 @@
       <div class="product-card">
          <div class="product-image">
             <!-- <span class="discount-tag">10% off</span> -->
-            <a href="product.html?product=Nissan Skyline R34 GTR" class="product-link">
+            <a href="product.php?product=Nissan Skyline R34 GTR" class="product-link">
             <img src="img/nissan22.jpg" class="product-thumb" alt="">
             </a>
             <button class="card-btn">toevoegen aan whislist</button> 
